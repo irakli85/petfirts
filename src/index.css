@@ -7,6 +7,7 @@
   font-family: 'Josefin Sans';
   text-decoration: none;
   border-style: none;
+  outline: none;
 }
 
 body{
@@ -506,6 +507,11 @@ main{
   width: 470px;
   background: #ED5C01;
   margin-left: 65px;
+
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
 }
 
 .sec-five-info input::placeholder{
