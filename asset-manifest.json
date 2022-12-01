@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/petfirts/static/css/main.d773b69a.css",
+    "main.css": "/petfirts/static/css/main.2545e073.css",
     "main.js": "/petfirts/static/js/main.c355e80b.js",
     "static/media/dogWithGirl.png": "/petfirts/static/media/dogWithGirl.762c331ed1083baff535.png",
     "static/media/doginHoody.png": "/petfirts/static/media/doginHoody.c20641b458b7cb6d15a3.png",
@@ -20,11 +20,11 @@
     "static/media/pet11.png": "/petfirts/static/media/pet11.e1939c70c80db204cccd.png",
     "static/media/pet10.png": "/petfirts/static/media/pet10.c37f478845cddbee4965.png",
     "index.html": "/petfirts/index.html",
-    "main.d773b69a.css.map": "/petfirts/static/css/main.d773b69a.css.map",
+    "main.2545e073.css.map": "/petfirts/static/css/main.2545e073.css.map",
     "main.c355e80b.js.map": "/petfirts/static/js/main.c355e80b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d773b69a.css",
+    "static/css/main.2545e073.css",
     "static/js/main.c355e80b.js"
   ]
 }
