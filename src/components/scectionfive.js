@@ -1,5 +1,5 @@
-import brownDog from '../assets/brownDog.png'
-import arrowR from '../assets/ArrowRight.png'
+import brownDog from '../assets/brownDog.png';
+import arrowR from '../assets/ArrowRight.png';
 
 
 function Sectionfive(){
@@ -24,7 +24,7 @@ function Sectionfive(){
             </section>
   
         
-    )
+    );
 };
 
 export default Sectionfive;

@@ -1,17 +1,17 @@
-import pet1 from '../assets/pet1.png'
-import pet2 from '../assets/pet2.png'
-import pet3 from '../assets/pet3.png'
-import pet4 from '../assets/pet4.png'
-import pet5 from '../assets/pet5.png'
-import pet6 from '../assets/pet6.png'
-import pet7 from '../assets/pet7.png'
-import pet8 from '../assets/pet8.png'
-import pet9 from '../assets/pet9.png'
-import pet10 from '../assets/pet10.png'
-import pet11 from '../assets/pet11.png'
-import pet12 from '../assets/pet12.png'
-import different from '../assets/differentCategory.png'
-import jasper from '../assets/dogJasper.png'
+import pet1 from '../assets/pet1.png';
+import pet2 from '../assets/pet2.png';
+import pet3 from '../assets/pet3.png';
+import pet4 from '../assets/pet4.png';
+import pet5 from '../assets/pet5.png';
+import pet6 from '../assets/pet6.png';
+import pet7 from '../assets/pet7.png';
+import pet8 from '../assets/pet8.png';
+import pet9 from '../assets/pet9.png';
+import pet10 from '../assets/pet10.png';
+import pet11 from '../assets/pet11.png';
+import pet12 from '../assets/pet12.png';
+import different from '../assets/differentCategory.png';
+import jasper from '../assets/dogJasper.png';
 
 function Sectionone(){
     return(
@@ -47,7 +47,7 @@ function Sectionone(){
             </section>
             
         
-    )
-}
+    );
+};
 
 export default Sectionone;

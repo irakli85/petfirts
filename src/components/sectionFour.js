@@ -1,7 +1,7 @@
-import avatar from '../assets/avatar.png'
-import quote from '../assets/quote.png'
-import slider from '../assets/slider.png'
-import arrows from '../assets/arrows.png'
+import avatar from '../assets/avatar.png';
+import quote from '../assets/quote.png';
+import slider from '../assets/slider.png';
+import arrows from '../assets/arrows.png';
 
 function Sectionfour(){
     return(
@@ -26,7 +26,7 @@ function Sectionfour(){
             </section>
   
         
-    )
+    );
 };
 
 export default Sectionfour;

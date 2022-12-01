@@ -1,4 +1,4 @@
-import dogAndgirl from '../assets/dogWithGirl.png'
+import dogAndgirl from '../assets/dogWithGirl.png';
 
 
 function Sectionthree(){
@@ -25,7 +25,7 @@ function Sectionthree(){
             </section>
   
         
-    )
-}
+    );
+};
 
 export default Sectionthree;

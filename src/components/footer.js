@@ -1,7 +1,7 @@
-import footerLogo from '../assets/footerLogo.png'
-import facebook from '../assets/facebook.png'
-import insta from '../assets/insta.png'
-import twit from '../assets/twit.png'
+import footerLogo from '../assets/footerLogo.png';
+import facebook from '../assets/facebook.png';
+import insta from '../assets/insta.png';
+import twit from '../assets/twit.png';
 
 function Footer(){
     return(
@@ -34,7 +34,7 @@ function Footer(){
                 </div>                
             </footer>  
         
-    )
+    );
 };
 
 export default Footer;
