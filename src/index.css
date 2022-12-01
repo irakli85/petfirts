@@ -323,6 +323,17 @@ main{
   margin-left: 32px;
 }
 
+.boxtwo-btn-one:hover,
+.boxtwo-btn-two:hover{
+  animation: boxtwobtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes boxtwobtn {
+  0% { box-shadow: 0 0 0 0 #062D3E;
+    filter: hue-rotate(45deg); }
+}
+
 .sec-two-arrows{
   display: flex;
   justify-content: flex-end;
@@ -409,6 +420,18 @@ main{
   color: #EBE3CC;
   cursor: pointer;
 }
+
+.sec-three-info button:hover{
+  animation: boxthreebtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes boxthreebtn {
+  0% { box-shadow: 0 0 0 0 #062D3E;
+    filter: hue-rotate(45deg); }
+}
+
+
 
 /* SECTION FOUR */
 
