@@ -72,6 +72,16 @@ nav{
   cursor: pointer;
 }
 
+.header-btn:hover{
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 white;
+    filter: hue-rotate(45deg); }
+}
+
 
 /* MAIN COMPONENT */
 main{
@@ -130,6 +140,16 @@ main{
   margin-top: 56px;
   margin-left: 170px;
   cursor: pointer;
+}
+
+.main-btn:hover{
+  animation: mainbtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes mainbtn {
+  0% { box-shadow: 0 0 0 0 #ED5C01;
+    filter: hue-rotate(45deg); }
 }
 
 .main-box-two{
