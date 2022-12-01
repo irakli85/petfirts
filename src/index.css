@@ -191,6 +191,7 @@ main{
 .section-one{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 120px;
   height: 306px;
   background: #ED5C01;
@@ -232,7 +233,7 @@ main{
 
 .sec-one-box-three div{
   display: flex;
-  gap: 10px;
+  gap: 10px;  
 }
 
 .petbox-two{
