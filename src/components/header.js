@@ -3,7 +3,7 @@ import headerLogo from '../assets/headerLogo.png';
 
 function Header() {
   return (
-    <div className="Header">
+    
       <header>
         <div className="header-logo">
           <img src={headerLogo} alt="header-logo"/>
@@ -17,7 +17,7 @@ function Header() {
         <button className="header-btn">Sing up</button>
 
       </header>
-    </div>
+    
   );
 }
 

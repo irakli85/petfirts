@@ -564,6 +564,25 @@ footer{
 
 .footer-social{
   display: flex;
+  margin-top: 15px;
+}
+
+.footer-social span{
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.footer-social-box{
+  margin-left: 26px;
+  display: flex;
+  gap: 17px;
+}
+
+.footer-social-box img{
+  cursor: pointer;
 }
 
 

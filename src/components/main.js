@@ -6,7 +6,7 @@ import arrowDown from '../assets/arrowDown.png';
 
 function Main(){
   return(
-    <div className="Main">
+    
       <main>
 
         <div className="main-box-one">
@@ -29,8 +29,9 @@ function Main(){
             <img className="main-slider-three" src={arrowDown} alt="arrowDown"/>
           </div>
         </div>
+        
       </main>
-    </div>
+    
   );
 }
 

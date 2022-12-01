@@ -15,7 +15,7 @@ import jasper from '../assets/dogJasper.png'
 
 function Sectionone(){
     return(
-        <div className="SectionOne">
+        
 
             <section className="section-one">
 
@@ -46,7 +46,7 @@ function Sectionone(){
 
             </section>
             
-        </div>
+        
     )
 }
 

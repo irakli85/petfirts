@@ -5,7 +5,7 @@ import arrows from '../assets/arrows.png'
 
 function Sectionfour(){
     return(
-        <div className="SectionFour">
+        
 
             <section className="section-four">
 
@@ -25,7 +25,7 @@ function Sectionfour(){
 
             </section>
   
-        </div>
+        
     )
 };
 
