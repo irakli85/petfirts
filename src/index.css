@@ -160,7 +160,7 @@ main{
   position: absolute;
   right: -390px;
   top: -140px;
-  /* display: none; */
+  
 }
 
 .main-box-two-slider{
@@ -205,6 +205,9 @@ main{
 
 .sec-one-box-one{
   margin-left: 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
 }
 
 .sec-one-box-two{
@@ -227,11 +230,16 @@ main{
   border-radius: 50%;
 }
 
-.sec-one-box-three{
+.sec-one-box-three div{
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
 }
+
+.petbox-two{
+  margin-top: 17px;
+}
+
+
 
 /* SECTION TWO */
 
