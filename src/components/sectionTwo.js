@@ -1,10 +1,10 @@
-import scope from '../assets/scope.png'
-import scissors from '../assets/scissors.png'
-import arrows from '../assets/arrows.png'
+import scope from '../assets/scope.png';
+import scissors from '../assets/scissors.png';
+import arrows from '../assets/arrows.png';
 
 function Sectiontwo(){
     return(
-        <div className="SectionTwo">
+        
 
             <section className="section-two">
 
@@ -37,8 +37,8 @@ function Sectiontwo(){
 
             </section>
   
-        </div>
-    )
+        
+    );
 };
 
 export default Sectiontwo;

@@ -1,11 +1,11 @@
-import avatar from '../assets/avatar.png'
-import quote from '../assets/quote.png'
-import slider from '../assets/slider.png'
-import arrows from '../assets/arrows.png'
+import avatar from '../assets/avatar.png';
+import quote from '../assets/quote.png';
+import slider from '../assets/slider.png';
+import arrows from '../assets/arrows.png';
 
 function Sectionfour(){
     return(
-        <div className="SectionFour">
+        
 
             <section className="section-four">
 
@@ -25,8 +25,8 @@ function Sectionfour(){
 
             </section>
   
-        </div>
-    )
+        
+    );
 };
 
 export default Sectionfour;

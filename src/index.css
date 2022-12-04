@@ -72,6 +72,16 @@ nav{
   cursor: pointer;
 }
 
+.header-btn:hover{
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 white;
+    filter: hue-rotate(45deg); }
+}
+
 
 /* MAIN COMPONENT */
 main{
@@ -132,6 +142,16 @@ main{
   cursor: pointer;
 }
 
+.main-btn:hover{
+  animation: mainbtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes mainbtn {
+  0% { box-shadow: 0 0 0 0 #ED5C01;
+    filter: hue-rotate(45deg); }
+}
+
 .main-box-two{
   position: relative;
 }
@@ -140,7 +160,7 @@ main{
   position: absolute;
   right: -390px;
   top: -140px;
-  /* display: none; */
+  
 }
 
 .main-box-two-slider{
@@ -171,6 +191,7 @@ main{
 .section-one{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 120px;
   height: 306px;
   background: #ED5C01;
@@ -185,6 +206,9 @@ main{
 
 .sec-one-box-one{
   margin-left: 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
 }
 
 .sec-one-box-two{
@@ -207,11 +231,16 @@ main{
   border-radius: 50%;
 }
 
-.sec-one-box-three{
+.sec-one-box-three div{
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 10px;  
 }
+
+.petbox-two{
+  margin-top: 17px;
+}
+
+
 
 /* SECTION TWO */
 
@@ -303,6 +332,17 @@ main{
   margin-left: 32px;
 }
 
+.boxtwo-btn-one:hover,
+.boxtwo-btn-two:hover{
+  animation: boxtwobtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes boxtwobtn {
+  0% { box-shadow: 0 0 0 0 #062D3E;
+    filter: hue-rotate(45deg); }
+}
+
 .sec-two-arrows{
   display: flex;
   justify-content: flex-end;
@@ -389,6 +429,18 @@ main{
   color: #EBE3CC;
   cursor: pointer;
 }
+
+.sec-three-info button:hover{
+  animation: boxthreebtn 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes boxthreebtn {
+  0% { box-shadow: 0 0 0 0 #062D3E;
+    filter: hue-rotate(45deg); }
+}
+
+
 
 /* SECTION FOUR */
 
@@ -564,6 +616,25 @@ footer{
 
 .footer-social{
   display: flex;
+  margin-top: 15px;
+}
+
+.footer-social span{
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.footer-social-box{
+  margin-left: 26px;
+  display: flex;
+  gap: 17px;
+}
+
+.footer-social-box img{
+  cursor: pointer;
 }
 
 

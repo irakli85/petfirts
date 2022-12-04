@@ -1,9 +1,9 @@
-import dogAndgirl from '../assets/dogWithGirl.png'
+import dogAndgirl from '../assets/dogWithGirl.png';
 
 
 function Sectionthree(){
     return(
-        <div className="SectionThree">
+        
 
             <section className="section-three">
 
@@ -24,8 +24,8 @@ function Sectionthree(){
 
             </section>
   
-        </div>
-    )
-}
+        
+    );
+};
 
 export default Sectionthree;

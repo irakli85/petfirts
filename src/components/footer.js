@@ -1,11 +1,11 @@
-import footerLogo from '../assets/footerLogo.png'
-import facebook from '../assets/facebook.png'
-import insta from '../assets/insta.png'
-import twit from '../assets/twit.png'
+import footerLogo from '../assets/footerLogo.png';
+import facebook from '../assets/facebook.png';
+import insta from '../assets/insta.png';
+import twit from '../assets/twit.png';
 
 function Footer(){
     return(
-        <div className="footer">
+        
 
             <footer>
                 <div className="footer-logo">
@@ -25,7 +25,7 @@ function Footer(){
 
                     <div className="footer-social">
                         <span>Flow</span>
-                        <div>
+                        <div className="footer-social-box">
                             <img src={facebook}alt="fb"/>
                             <img src={insta}alt="insta"/>
                             <img src={twit} alt="twit"/>
@@ -33,8 +33,8 @@ function Footer(){
                     </div>    
                 </div>                
             </footer>  
-        </div>
-    )
+        
+    );
 };
 
 export default Footer;
